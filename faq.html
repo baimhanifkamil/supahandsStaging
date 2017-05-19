@@ -537,7 +537,7 @@
   <div class="header-bg-gradient">
       <section>
           <div class="row">
-              <div class="small-12 large-3 large-offset-9 columns icon-container">
+              <div class="small-12 large-3 large-offset-9 columns icon-container"data-stellar-ratio="1.4">
                   <img class="icon" src="assets/img/page-faq.png" />
               </div>
           </div>
@@ -555,7 +555,7 @@
   <!-- Header Section -->
   <section class="header-section">
       <div class="row">
-          <div class="small-12 large-8 columns text-container">
+          <div class="small-12 large-8 columns text-container" data-stellar-ratio="1.3">
               <h1>Frequently Asked Questions</h1>
               <p>Find the answers to your most frequently asked questions here! If you're still curious to know more, talk to us via the chat box at the bottom of the screen or e-mail us at hello@supahands.com.</p>
           </div>
@@ -966,6 +966,16 @@
       </div>
   </footer>
   
+
+  <!-- START Parallax -->
+  <script src="assets/js/plugins/jquery-2.0.2.js" ></script>
+  <script src="assets/js/plugins/jquery.stellar.min.js"></script>
+  <script>
+    $.stellar({
+    positionProperty: 'transform'
+    });
+  </script>
+  <!-- END Parallax -->
 
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
   <script type="text/javascript" src="assets/js/plugins/slick.min.js"></script>
